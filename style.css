@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -24,28 +27,34 @@
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__content {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .tasks__wrapper {
   display: flex;
 }
+
 .tasks__list {
   margin: 0;
   padding: 0px;
   list-style: none;
 }
+
 .task__text,
 .task__btn {
   outline: none;
 }
+
 .task__btn {
   background: none;
   border: 0px;
@@ -55,9 +64,11 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .task__btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .tasks__title {
   color: #333;
@@ -68,6 +79,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task__text {
   margin: 0;
   font-size: 18px;
@@ -81,6 +93,7 @@
   color: #888;
   flex-grow: 1;
 }
+
 .task__text:focus {
   color: #333;
 }
@@ -100,6 +113,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task > * {
   vertical-align: middle;
 }
@@ -107,6 +121,7 @@
 .task__check {
   margin: 0 10px;
 }
+
 .task {
   font-size: 18px;
 }
